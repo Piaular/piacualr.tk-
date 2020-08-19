@@ -38,7 +38,7 @@ header::before {
     right: 0;
     top: 0;
     display: block;
-    background-image: url(piacular22.png);
+    background-image: url(piacular22small.png);
     background-repeat: no-repeat;
     background-size:contain;
     transform-origin: center center 0;
