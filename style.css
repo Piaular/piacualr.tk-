@@ -38,13 +38,16 @@ header::before {
     right: 0;
     top: 0;
     display: block;
-    background-image: url(piacular22small.png);
+    background-image: url(piacular22.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size:contain;
-    transform-origin: center center 0;
-    transform:  translateZ(-1px) scale(2);
+
+   background-position-y: center;
+   background-position-x: center;
     z-index: -1;
-    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom:200px; 
+
 }
  header * {
      font-weight: normal;
@@ -572,4 +575,19 @@ header::before {
       opacity: 1;
     }
   }
-  
+
+  .wrapper {
+display: grid;
+grid-template-columns:25% 25% 25% 25% ;
+
+  }
+.wrapper > div{
+ background: #eeeeee;
+padding: 1em;
+
+}
+.wrapper > div:nth-child(odd){
+    background: #dddddd;
+   padding: 1em;
+   
+   }
